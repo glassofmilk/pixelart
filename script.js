@@ -14,7 +14,7 @@ $(document).ready(function() {
 	var fillColor = "blue";
     var dragging = false;
 	
-	var cw = Raphael.colorwheel($("#colorwheel"), 125);
+	var cw = Raphael.colorwheel($("#colorwheel"), 75);
 	cw.color("#0000ff");
 	
 	$("#colorDisplay").toggleClass("selected");

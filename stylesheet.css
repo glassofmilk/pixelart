@@ -1,9 +1,9 @@
 #canvasWrapper {
 	border: 2px solid black;
 	display: inline-block;
-	padding: 5em 5em 3em 5em;
+	padding: 1em 1em 1em 1em;
 	line-height: 0%;
-	width: 702px;
+	width: 493px;
 }
 
 #extraBorder {
@@ -12,8 +12,8 @@
 }
 
 #yourColor {
-	margin: 2em 0 0 0;
-	font-size: 30px;
+	margin: 1em 0 0 0;
+	font-size: 15px;
 	float: left;
 }
 
@@ -22,22 +22,22 @@
 	height: .75em;
 	width: .75em;
 	background-color: blue;
-	margin-left: 82px;
+	margin-left: 75px;
 	border: 1px solid black;
 }
 
 #colorPicker{
-	height: 12em;
-	width: 30em;
+	height: 7.75em;
+	width: 20em;
 	border: 1px solid black;
 	float: right;
-	margin: 3em 0 0 0;
+	margin: 1em 0 0 0;
 }
 
 #colorwheel {
 	clear: left;
 	position: relative;
-	left: +30px;
+	left: +40px;
 	top: +20px
 }
 
@@ -50,9 +50,9 @@
 }
 
 .colorBox {
-	height: 1.25em;
-	width: 1.25em;
-	margin: .75em 1em;
+	height: .75em;
+	width: .75em;
+	margin: .5em .65em;
 	border: 1px solid black;
 	display: inline-block;
 }
@@ -60,8 +60,8 @@
 .pixel {
 	border: 1px solid gray;
 	display: inline-block;
-	width: .75em;
-	height: .75em;
+	width: .5em;
+	height: .5em;
 	margin: 0;
 }
 
