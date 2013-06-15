@@ -1,37 +1,37 @@
 #canvasWrapper {
 	border: 2px solid black;
 	display: inline-block;
-	padding: 1em 1em 1em 1em;
+	padding: 8px;
 	line-height: 0%;
 	width: 493px;
 }
 
 #extraBorder {
 	border: 1px solid gray;
-	float: left;
+	display: inline-block;
 }
 
 #yourColor {
-	margin: 1em 0 0 0;
+	margin: 18px 0 0 0;
 	font-size: 15px;
 	float: left;
 }
 
 #colorDisplay {
 	display: inline-block;
-	height: .75em;
-	width: .75em;
+	height: 13px;
+	width: 13px;
 	background-color: blue;
 	margin-left: 75px;
 	border: 1px solid black;
 }
 
 #colorPicker{
-	height: 7.75em;
-	width: 20em;
 	border: 1px solid black;
+	/*margin: 13px 0 0 0;
 	float: right;
-	margin: 1em 0 0 0;
+	height: 115px;
+	width: 310px;*/
 }
 
 #colorwheel {
@@ -43,6 +43,15 @@
 
 #menuWrapper {
 	text-align: center;
+	width: 493px
+}
+
+#colorPickerWrapper {
+	padding: 0 20px 0 0;
+	height: 115px;
+	width: 310px;
+	float: right;
+	margin: 13px 0 0 0;
 }
 
 .selected {
@@ -50,9 +59,9 @@
 }
 
 .colorBox {
-	height: .75em;
-	width: .75em;
-	margin: .5em .65em;
+	height: 13px;
+	width:  13px;
+	margin: 7px 10px;
 	border: 1px solid black;
 	display: inline-block;
 }
@@ -60,8 +69,8 @@
 .pixel {
 	border: 1px solid gray;
 	display: inline-block;
-	width: .5em;
-	height: .5em;
+	width: 7px;
+	height: 7px;
 	margin: 0;
 }
 
