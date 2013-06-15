@@ -1,0 +1,77 @@
+#canvasWrapper {
+	border: 2px solid black;
+	display: inline-block;
+	padding: 5em 5em 3em 5em;
+	line-height: 0%;
+	width: 702px;
+}
+
+#extraBorder {
+	border: 1px solid gray;
+	float: left;
+}
+
+#yourColor {
+	margin: 2em 0 0 0;
+	font-size: 30px;
+	float: left;
+}
+
+#colorDisplay {
+	display: inline-block;
+	height: .75em;
+	width: .75em;
+	background-color: blue;
+	margin-left: 82px;
+	border: 1px solid black;
+}
+
+#colorPicker{
+	height: 12em;
+	width: 30em;
+	border: 1px solid black;
+	float: right;
+	margin: 3em 0 0 0;
+}
+
+#colorwheel {
+	clear: left;
+	position: relative;
+	left: +30px;
+	top: +20px
+}
+
+#menuWrapper {
+	text-align: center;
+}
+
+.selected {
+	box-shadow: 0 0 8px 5px red;
+}
+
+.colorBox {
+	height: 1.25em;
+	width: 1.25em;
+	margin: .75em 1em;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.pixel {
+	border: 1px solid gray;
+	display: inline-block;
+	width: .75em;
+	height: .75em;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+}
+
+div {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
